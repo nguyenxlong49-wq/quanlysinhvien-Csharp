@@ -36,7 +36,7 @@ namespace project
             {
                 Console.Write("Hãy nhập số lượng sinh viên: ");
                  n = int.Parse(Console.ReadLine());
-                if (n >= 0 && n <= 10)
+                if (n >= 0 )
                 {
                     break;
                 }
